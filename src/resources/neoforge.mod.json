@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lp",
+  "version": "${version}",
+  "name": "LP",
+  "description": "",
+  "authors": ["Pr1v4cy"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lp/pack.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "Aone.minecraftmod.client.MinecraftmodClient"
+    ],
+    "main": [
+      "Aone.minecraftmod.Minecraftmod"
+    ]
+  },
+  "mixins": [
+    "minecraftmod.mixins.json",
+    {
+      "config": "minecraftmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

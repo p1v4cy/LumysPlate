@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "lp:enforced_diamond_elytra",
+      "count": 1
+    },
+    "title": "Stronger Better Shinier",
+    "description": "Build an enforced diamond elytra",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "got_enforced_diamond_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lp:enforced_diamond_elytra"
+            ],
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_enforced_diamond_elytra"
+    ]
+  ]
+}

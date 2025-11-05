@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "lp:enforced_elytra"
+      }
+    ],
+    "humanoid_chestplate": [
+      {
+        "texture": "lp:enforced_elytra"
+      }
+    ]
+  }
+}
